@@ -1,0 +1,13 @@
+/* styles.css or your component */
+.animate-slow-bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px); /* Adjust this value for desired bounce height */
+  }
+}
